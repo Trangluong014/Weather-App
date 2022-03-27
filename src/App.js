@@ -9,7 +9,7 @@ const api = {
 function App() {
   const [searchInput, setSearchInput] = useState("");
   const [searchCity, setSearchCity] = useState("");
-  const [weatherInfo, setWeatherInfo] = useState();
+  const [weatherInfo, setWeatherInfo] = useState("");
   const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
 
@@ -26,8 +26,6 @@ function App() {
         const data = await response.json();
         if (response.ok) {
           setWeatherInfo(data);
-          console.log(typeof weatherInfo);
-          console.log(weatherInfo);
           setErrorMessage("");
         } else {
           setErrorMessage(data.message);
@@ -38,7 +36,7 @@ function App() {
       setLoading(false);
     };
     fetchWeatherData();
-  }, [searchCity, weatherInfo]);
+  }, [searchCity]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
