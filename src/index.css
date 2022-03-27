@@ -192,6 +192,9 @@ code {
   border: 0;
 }
 
+.error {
+  margin-top: 50px;
+}
 .city {
   font-size: 2em;
   text-align: center;

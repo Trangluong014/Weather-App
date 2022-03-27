@@ -66,7 +66,9 @@ function App() {
           <>
             {" "}
             {errorMessage ? (
-              <div style={{ color: "red" }}>{errorMessage}</div>
+              <div style={{ color: "red" }} className="error">
+                {errorMessage}
+              </div>
             ) : (
               <div>
                 <div className="city">
