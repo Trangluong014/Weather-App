@@ -3,7 +3,7 @@ html {
 }
 
 :root {
-  --gradient: linear-gradient(135deg, #8eecf0 10%, #3838e6 100%);
+  --gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
 }
 
 body {
@@ -75,11 +75,11 @@ code {
     from(#f6f6f6),
     to(#eae8e8)
   );
-  background-image: -webkit-linear-gradient(top, #f6f6f6, #eae8e8);
-  background-image: -moz-linear-gradient(top, #f6f6f6, #eae8e8);
-  background-image: -ms-linear-gradient(top, #f6f6f6, #eae8e8);
-  background-image: -o-linear-gradient(top, #f6f6f6, #eae8e8);
-  background-image: linear-gradient(top, #f6f6f6, #eae8e8);
+  background-image: -webkit-linear-gradient(to bottom, #f6f6f6, #eae8e8);
+  background-image: -moz-linear-gradient(to bottom, #f6f6f6, #eae8e8);
+  background-image: -ms-linear-gradient(to bottom, #f6f6f6, #eae8e8);
+  background-image: -o-linear-gradient(to bottom, #f6f6f6, #eae8e8);
+  background-image: linear-gradient(to bottom, #f6f6f6, #eae8e8);
   border-color: #dedede #bababa #aaa #bababa;
   border-style: solid;
   border-width: 1px;
@@ -141,11 +141,11 @@ code {
     from(#31b2c3),
     to(#0483a0)
   );
-  background-image: -webkit-linear-gradient(top, #31b2c3, #0483a0);
-  background-image: -moz-linear-gradient(top, #31b2c3, #0483a0);
-  background-image: -ms-linear-gradient(top, #31b2c3, #0483a0);
-  background-image: -o-linear-gradient(top, #31b2c3, #0483a0);
-  background-image: linear-gradient(top, #31b2c3, #0483a0);
+  background-image: -webkit-linear-gradient(to bottom, #31b2c3, #0483a0);
+  background-image: -moz-linear-gradient(to bottom, #31b2c3, #0483a0);
+  background-image: -ms-linear-gradient(to bottom, #31b2c3, #0483a0);
+  background-image: -o-linear-gradient(to bottom, #31b2c3, #0483a0);
+  background-image: linear-gradient(to bottom, #31b2c3, #0483a0);
   border: 1px solid #00748f;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -174,11 +174,11 @@ code {
     from(#0483a0),
     to(#31b2c3)
   );
-  background-image: -webkit-linear-gradient(top, #0483a0, #31b2c3);
-  background-image: -moz-linear-gradient(top, #0483a0, #31b2c3);
-  background-image: -ms-linear-gradient(top, #0483a0, #31b2c3);
-  background-image: -o-linear-gradient(top, #0483a0, #31b2c3);
-  background-image: linear-gradient(top, #0483a0, #31b2c3);
+  background-image: -webkit-linear-gradient(to bottom, #0483a0, #31b2c3);
+  background-image: -moz-linear-gradient(to bottom, #0483a0, #31b2c3);
+  background-image: -ms-linear-gradient(to bottom, #0483a0, #31b2c3);
+  background-image: -o-linear-gradient(to bottom, #0483a0, #31b2c3);
+  background-image: linear-gradient(to bottom, #0483a0, #31b2c3);
 }
 
 .form-wrapper #submit:active {
