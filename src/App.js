@@ -38,7 +38,7 @@ function App() {
       setLoading(false);
     };
     fetchWeatherData();
-  }, [searchCity]);
+  }, [searchCity, weatherInfo]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
